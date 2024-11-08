@@ -2,7 +2,7 @@ body{
     
 }
 .encabezado {
-    width: 80%; /* Establece el ancho del contenedor en un 80% */
+    width: 100%; /* Establece el ancho del contenedor en un 100% */
     padding: 10px;
     align-items: center;
     display: flex;
@@ -52,6 +52,7 @@ a{
 .nosotros{
     display:inline; /* Alinea los elementos */
 }
+
 .cupon{
     height: 30px;
     top: 50%;
@@ -63,6 +64,7 @@ a{
     top: 50%;
     margin-right:20px;
 }
+
 
 .ingresar{
     border-radius: 200px;
@@ -79,7 +81,8 @@ a{
     background-size: cover;
     color: #fff; 
     align-items: center; 
-    padding: 1px 0; 
+    padding: 1px 0;
+    width: 100%;
 }
 
 #banner h2{
@@ -87,5 +90,8 @@ a{
 }
 
 .foto{
-
+    background-size: cover;
+    color: #fff; 
+    align-items: center; 
+    width: 100%;
 }
