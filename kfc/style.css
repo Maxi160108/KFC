@@ -101,12 +101,13 @@ a{
 .cont_footer {
     background-color: #f8f7f5;
     padding-left: 80px;
+    display:wrap;
     padding-bottom: 40px;
 }
 
 .img_footer {
-    height: 50px;
-    width: 110px;
+    height: 60px;
+    width: 150px;
     margin-top: 30px;
 }
 
