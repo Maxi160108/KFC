@@ -93,12 +93,43 @@ a{
     width: 100%;
 }
 
+/*productos*/
 
+.botonmenu{
+    border: none;
+    background-color: red;
+    border-radius: 400px;
+    color: white;
+    height: 40px;
+    width: 70px;
+    margin: 20px;
+}
+
+#menu{
+    padding-left: 80px;
+    padding-right: 80px;
+    margin-bottom: 40px;
+}
+
+#contenedor-productos{
+    display: flex;
+    flex-wrap: wrap;
+    text-align: center;
+}
+
+.productos{
+    margin: 10px;
+    border-radius: 15px;
+    height: 250px;
+    width: 200px;
+    font-size: 10px;
+    cursor: pointer;
+}
 
 
 /*footer*/
 
-.cont_footer {
+.contenido_de_footer {
     background-color: #f8f7f5;
     padding-left: 80px;
     display:wrap;
