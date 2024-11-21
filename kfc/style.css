@@ -125,6 +125,8 @@ a{
     width: 200px;
     font-size: 10px;
     cursor: pointer;
+    border-bottom: solid;
+    border-width: 1px;
 }
 
 
