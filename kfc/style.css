@@ -116,6 +116,7 @@ a{
     display: flex;
     flex-wrap: wrap;
     text-align: center;
+    justify-content: center;
 }
 
 .productos{
@@ -127,8 +128,13 @@ a{
     cursor: pointer;
     border-bottom: solid;
     border-width: 1px;
+    transition: 0.3s;
 }
 
+.productos:hover{
+    width: 210px;
+    height: 260px;
+}
 
 /*footer*/
 
